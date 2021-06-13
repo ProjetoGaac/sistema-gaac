@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CourseAdministratorComponent } from './course-administrator.component';
+import { CourseAdministratorRoutingModule } from './course-administrator-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { CourseAdministratorComponent } from './course-administrator.component';
     CourseAdministratorComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CourseAdministratorRoutingModule
   ]
 })
 export class CourseAdministratorModule { }

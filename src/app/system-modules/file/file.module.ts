@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FileComponent } from './file.component';
+import { FileRoutingModule } from './file-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { FileComponent } from './file.component';
     FileComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FileRoutingModule
   ]
 })
 export class FileModule { }
