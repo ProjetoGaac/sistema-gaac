@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   title = 'GAAC - Sistema Gerenciador de Arquivos das Aulas';
+  AdmGeral2:string = "assets/imgs/AdmGeral2.jpg"
 
   constructor() { }
 
