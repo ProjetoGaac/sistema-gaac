@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#"><i class="far fa-file mr-1"></i>Gaac</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cabecalho">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="cabecalho">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home" >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/generalmanager">Administradores Gerais</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" routerLink="/home">Cursos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/home">Tipo dos Cursos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/home">Administradores de Curso</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/home">Disciplinas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/home">Professores</a>
+        </li>
+      </ul>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle text-white" type="button" id="usuario" data-toggle="dropdown">
+            <i class="fas fa-user mr-1"></i>Nome Aluno
+        </button>
+        <div class="dropdown-menu" aria-labelledby="usuario">
+            <a class="dropdown-item" href="#"><i class="fas fa-cog mr-1"></i>Configurações</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt mr-1"></i>Sair</a>
+        </div>
+      </div>
+    </div>
+</nav>
+

@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CourseComponent } from './course.component';
 import { CourseRoutingModule } from './course-routing.module';
+import { GaacHeaderModule } from 'src/app/shared/gaac-header/gaac-header.module';
+
 
 @NgModule({
   declarations: [
@@ -9,7 +11,8 @@ import { CourseRoutingModule } from './course-routing.module';
   ],
   imports: [
     CommonModule,
-    CourseRoutingModule
+    CourseRoutingModule,
+    GaacHeaderModule
   ]
 })
 export class CourseModule { }
